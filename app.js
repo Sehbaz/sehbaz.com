@@ -10,6 +10,14 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static("public"));
 
+app.get("/me", (req, res) => {
+    res.render("me");
+})
+
+app.get("/contact", (req, res) => {
+    res.render("contact");
+})
+
 app.get("/", (req, res) => {
     res.render("index");
 })
