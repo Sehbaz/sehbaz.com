@@ -21,13 +21,10 @@ app.get("/contact", (req, res) => {
 app.get("/", (req, res) => {
     res.render("index");
 });
-app.listen(3000, function () {
-    console.log("Express server listening on port 3000");
-});
-/*
+
+
 let port = process.env.PORT;
 if (port == null || port == "") {
     port = 8000;
 }
 app.listen(port);
-*/
