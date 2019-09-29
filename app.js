@@ -22,6 +22,8 @@ app.get("/", (req, res) => {
     res.render("index");
 })
 
-app.listen(3000, () => {
-    console.log("Server has succesfully started")
-})
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 8000;
+}
+app.listen(port);
