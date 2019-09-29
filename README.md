@@ -1,6 +1,6 @@
 # sehbazrafik.com
 
-Tania's personal website running on Heroku, JavaScript, and Node.js.
+Sehbaz's personal website running on Heroku, JavaScript, and Node.js.
 
 ## Note
 
