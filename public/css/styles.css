@@ -158,7 +158,7 @@ a {
 
     .projects>p {
         display: none;
-        ;
+
     }
 
     .projects h4 {
@@ -178,5 +178,9 @@ a {
         margin-left: 0.1rem;
         padding: 0.1rem;
         font-size: .9rem;
+    }
+
+    .nav-content>.disap {
+        display: none;
     }
 }
