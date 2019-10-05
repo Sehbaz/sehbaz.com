@@ -131,3 +131,51 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-container {
+        height: 10%;
+        width: 100%
+    }
+
+    #main-content {
+        min-height: 30vh;
+        padding-right: 45px;
+
+    }
+
+    .lead {
+        padding-right: 45px;
+    }
+
+
+
+    .projects>p {
+        display: none;
+        ;
+    }
+
+    .projects h4 {
+        width: 40px;
+    }
+
+    .projects {
+        width: 80%;
+        padding-right: 0px
+    }
+
+    .container {
+        padding-right: 45px;
+    }
+
+    .projects .button {
+        margin-left: 0.1rem;
+        padding: 0.1rem;
+        font-size: .9rem;
+    }
+}
