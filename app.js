@@ -17,6 +17,10 @@ app.get("/me", (req, res) => {
 app.get("/contact", (req, res) => {
     res.render("contact");
 })
+app.get("/projects", (req, res) => {
+    res.render("projects");
+})
+
 
 app.get("/", (req, res) => {
     res.render("index");
